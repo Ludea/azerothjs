@@ -1,0 +1,10 @@
+node_modules
+.DS_Store
+dist
+*.local
+
+yarn.lock
+pnpm-lock.yaml
+
+# Local Netlify folder
+.netlify
