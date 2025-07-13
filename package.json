@@ -4,14 +4,18 @@
   "scripts": {
     "prettier": "prettier --check .",
     "dev": "vite",
+    "lint": "eslint .",
     "build": "tsc && vite build",
     "preview": "tsc && vite build && vite preview --host --open"
   },
   "devDependencies": {
+    "@eslint/js": "^9.31.0",
     "adtloader": "https://github.com/Ludea/loaders",
+    "eslint": "^9.31.0",
     "prettier": "^3.6.2",
     "react": "^19.1.0",
     "typescript": "^5.8.3",
+    "typescript-eslint": "^8.18.1",
     "vite": "^7.0.2",
     "wdtloader": "^0.1.0"
   },
@@ -22,5 +26,5 @@
     "@babylonjs/loaders": "^8.14.0",
     "install": "^0.13.0",
     "vite-plugin-wasm": "^3.4.1"
-  } 
+  }
 }
